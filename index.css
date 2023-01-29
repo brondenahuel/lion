@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: proxima-nova, sans-serif;
+    color: #0d0d0d;
+    font-size: 150%;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+
+header {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 0px;
+    font-size: 50%;
+}
+
+#opcionesheader {
+    flex-grow: calc();
+    text-align: center;
+    font-size: 80%;
+    position: relative;
+    bottom: 50px;
+}
+
+
+#logo {
+    text-align: left;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: 900;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: solid rgba(0, 0, 0, 0.685);
+    font-weight: 700;
+    text-align: center;
+    font-size: 80%;
+}
+
+h3 {
+    font-weight: 500;
+    border: rgba(0, 0, 0, 0.658) solid;
+    color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    font-size: 70%;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+span {
+    text-align: center;
+    font-size: 40%;
+}
+
+.logo {
+    width: 7%;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+.headerH1H2H3 {
+    flex: auto;
+    background-image: url(imagenes/semental7.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: 50px;
+}
+
+#contain {
+    flex: auto;
+    
+}
