@@ -33,13 +33,15 @@ header {
 }
 
 h1 {
-    color: rgba(255, 255, 255, 0.815);
+    color: rgba(12, 6, 6, 0.815);
     font-weight: 900;
+    border-radius: 20px;
+    border: #0d0d0d solid;
 }
 
 h2 {
     background-color: rgba(255, 255, 255, 0.486);
-    border: solid rgba(0, 0, 0, 0.685);
+    
     font-weight: 700;
     text-align: center;
     font-size: 80%;
@@ -47,8 +49,7 @@ h2 {
 
 h3 {
     font-weight: 500;
-    border: rgba(0, 0, 0, 0.658) solid;
-    color: rgba(255, 255, 255, 0.767);
+    color: rgba(0, 0, 0, 0.767);
     text-align: center;
     font-size: 70%;
     background-color: rgba(0, 0, 0, 0.171);
@@ -68,11 +69,13 @@ span {
     clear: both;
 }
 
-.headerH1H2H3 {
+.header {
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    background-image: url(imagenes/semental7.jpg);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    align-items: space;
+    background-color: black;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -83,3 +86,7 @@ span {
     flex: auto;
 
 }
+
+
+
+.h1h2h3 {}
